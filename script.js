@@ -6,7 +6,7 @@ const person = {
 };
 let team=players;
 let team1=[...players]
-let cap1=[...person]   // Output: { name: 'John', age: 30, city: 'New York' }
+let cap1={...person}  // Output: { name: 'John', age: 30, city: 'New York' }
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
